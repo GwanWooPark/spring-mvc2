@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <!--주의! 다음 주석을 풀면 예외가 발생함 공백없이 이어나가면 하나의 의미있는 토큰으로 인정하고 ''가 생략되어도 되지만 공백이 있을경우 오류를 반환-->
+    <!-- <li>"hello world!" = <span th:text="hello world!"></span></li>-->
+    <li>'hello' + ' world!' = <span th:text="'hello' + ' world!'"></span></li>
+    <li>'hello world!' = <span th:text="'hello world!'"></span></li>
+    <li>'hello ' + ${data} = <span th:text="'hello ' + ${data}"></span></li>
+    <li>리터럴 대체 |hello ${data}| = <span th:text="|hello ${data}|"></span></li>
+</ul>
+</body>
+</html>
