@@ -1,0 +1,8 @@
+#logging:
+#  level:
+#    "org.apache.coyote.http11": "debug"
+
+
+spring:
+  messages:
+    basename: messages, errors
