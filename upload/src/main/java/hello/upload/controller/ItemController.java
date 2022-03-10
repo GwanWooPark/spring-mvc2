@@ -86,6 +86,5 @@ public class ItemController {
         return ResponseEntity.ok()
                 .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
                 .body(resource);
-
     }
 }
